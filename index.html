@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for better SEO and mobile responsiveness -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A beautiful weather application that shows current weather and forecast for any city">
+  <link href="style.css" rel="stylesheet" />
+  <title>SKY MOOD |  Check Weather Anywhere</title>
+</head>
+<body>
+    <!-- Main container with glass-morphism effect -->
+    <div class="container">
+        <h1>Sky Mood</h1>
+        <!-- Search section with input and button -->
+        <div class="search">
+            <input id="search" type="text" placeholder="Search by city" aria-label="Search for a city" />
+            <button id="submit" type="submit" aria-label="Search button">Search</button>
+        </div>
+        
+        <!-- Container where weather data will be dynamically inserted by JavaScript -->
+        <div id="weather-data">
+            <!-- Current weather info will be displayed here -->
+            <div id="current-weather"></div>
+            <!-- 5-day weather forecast section -->
+            <div id="forecast"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
