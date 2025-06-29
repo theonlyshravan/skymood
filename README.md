@@ -12,6 +12,12 @@
 
 ---
 
+## 🌐 Live Demo
+
+👉 [**Click here to try the app**](https://theonlyshravan.github.io/skymood/)
+
+---
+
 ## 🌤️ What is Sky Mood?
 
 **Sky Mood** is a sleek and beginner-friendly weather web app that lets you check the current weather and a 5-day forecast for any city around the world — all while vibing in style. Think of it as your chill weather buddy.
